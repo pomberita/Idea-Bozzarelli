@@ -291,6 +291,8 @@ main section div button {
     justify-content: center;
     column-gap: 5%;
     overflow: visible;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .body__pie-de-pagina--cuadrado {
@@ -476,7 +478,7 @@ main section div button {
     }
 
     /*NOSOTROS*/
-    
+
     #body__image--nosotros {
         padding: 3% 0px;
     }
@@ -570,12 +572,12 @@ main section div button {
 
     .body__producto {
         padding-top: 20%;
-        height:450px;
+        height: 450px;
     }
 
     .body__producto1 {
         padding-top: 20%;
-        height:450px;
+        height: 450px;
     }
 
     .btn__agregar-al-carrito {
