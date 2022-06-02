@@ -4,12 +4,10 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    color: #f29991;
     padding: 2% 0px;
 }
 
 .header__header--title {
-    font-family: Vidaloka;
     font-size: 275%;
 }
 
@@ -50,10 +48,8 @@
 }
 
 .header__menu--select {
-    color: #1c1526;
-    background-color: #f29991;
+    background-color: $colordos;
     font-size: 200%;
-    font-family: karma;
     border-radius: 5px;
     padding: 5px 15px;
 }
