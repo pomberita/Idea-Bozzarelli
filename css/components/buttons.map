@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "buttons.css",
+	"sources": [
+		"../../scss/components/buttons.scss"
+	],
+	"sourcesContent": [
+		".btn__agregar-al-carrito {\r\n    color: #1c1526;\r\n    font-family: karma;\r\n    background-color: #f29991;\r\n    border-color: #1c1526;\r\n    width: 90%;\r\n    height: 18%;\r\n    /*BORDE*/\r\n    border-width: 0;\r\n    border-right-width: 3px;\r\n    border-bottom-width: 3px;\r\n    border-radius: 60px;\r\n}\r\n\r\n.btn__agregar-al-carrito:hover {\r\n    border-width: 0;\r\n}\r\n\r\nmain section div button {\r\n    position: relative;\r\n    bottom: 15%;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,wBAAwB,CAAC;EACrB,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,KAAK;EAClB,gBAAgB,EAAE,OAAO;EACzB,YAAY,EAAE,OAAO;EACrB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,SAAS;EACT,YAAY,EAAE,CAAC;EACf,kBAAkB,EAAE,GAAG;EACvB,mBAAmB,EAAE,GAAG;EACxB,aAAa,EAAE,IAAI;CACtB;;;AAED,AAAA,wBAAwB,AAAA,MAAM,CAAC;EAC3B,YAAY,EAAE,CAAC;CAClB;;;AAED,AAAA,IAAI,CAAC,OAAO,CAAC,GAAG,CAAC,MAAM,CAAC;EACpB,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,GAAG;CACd"
+}
