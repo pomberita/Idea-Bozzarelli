@@ -1,0 +1,24 @@
+$colorletras: #1c1526;
+$colordos: #f5a59e;
+$colortres: #d9ab73;
+$colortres: white;
+
+* {
+    color: $colorletras;
+}
+
+.header__header--title {
+    color: $colordos;
+}
+
+.body__recien-llegados--titulo {
+    color: $colortres;
+}
+
+.body__pie-de-pagina {
+    color: $colortres;
+}
+
+.header__menu--select {
+    background-color: $colordos;
+}
