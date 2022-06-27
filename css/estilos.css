@@ -135,9 +135,11 @@ main section div button {
     margin-right: auto;
 }
 /*CARRUSEL*/
-#carouselExampleFade {
-    margin-bottom: 8vw;
+
+#carouselindex {
+    margin-bottom: 5vw;
 }
+
 /*NOSOTROS*/
 
 .body__image {
