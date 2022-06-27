@@ -7,13 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contactanos</title>
     <meta name="description" content="¿Tenés dudas? Contactanos. Estamos para ayudarte.">
-    <meta name="keywords" content="Contactanos Muebles Oruga, Instagram muebles oruga, muebles reciclados de madera, Comprar muebles reciclados argentina, muebles de diseño, whatsapp mueblería">
+    <meta name="keywords"
+        content="Contactanos Muebles Oruga, Instagram muebles oruga, muebles reciclados de madera, Comprar muebles reciclados argentina, muebles de diseño, whatsapp mueblería">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Karma:wght@500&family=Roboto:wght@100&family=Sawarabi+Mincho&family=Vidaloka&display=swap"
         rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body class="body__contacto">
@@ -32,16 +34,10 @@
         </div>
     </header>
 
-<<<<<<< HEAD
     <main>
         <!--AQUÍ COMIENZA EL TÍTULO-->
         <h2 class="body__h2--contacto">Contactanos</h2>
         <img src="imagenes/contacto.jpg" class="body__image" alt="...">
-=======
-    <!--AQUÍ COMIENZA EL TÍTULO-->
-    <h2 class="body__h2--contacto">Contactanos</h2>
-    <img src="imagenes/contacto.jpg" class="body__image" alt="...">
->>>>>>> e0831fe440187e3cf63e6c32b5773a8ca56f28c7
 
         <!--Contacto-->
         <h3 class="body__h3">Conocenos</h3>
@@ -74,15 +70,16 @@
                     <legend>
                         <h4>¡Tu opinión nos ayuda a crecer!</h4>
                     </legend>
-                    <label>Tu nombre</label>
-                    <input type="text"><br>
-                    <label>E-mail</label>
-                    <input type="email"><br>
-                    <textarea>
-                        Escriba aquí...
-                    </textarea> <br>
-                    <input type="submit" value="Enviar">
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Escribí tu comentario acá..."
+                            id="floatingTextarea2"></textarea>
+                    </div>
                 </fieldset>
+                <div class="contacto__formulario">
+                    <input class="contacto__formulario--tu-nombre" type="text" placeholder="Tu nombre">
+                    <input class="contacto__formulario--tu-e-mail" type="email" placeholder="Tu e-mail">
+                    <input class="btn__enviar" type="submit" value="Enviar">
+                </div>
             </form>
         </div>
     </main>
