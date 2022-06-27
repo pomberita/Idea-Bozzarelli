@@ -9,6 +9,7 @@ html {
     margin: 0;
     padding: 0;
 }
+
 /*AQUÍ COMIENZA TYPO SCSS*/
 * {
     font-family: 'Sawarabi Mincho';
@@ -57,7 +58,7 @@ main section div button {
     bottom: 15%;
 }
 
-.btn__enviar{
+.btn__enviar {
     padding: 0.3%;
     background-color: white;
 }
@@ -119,7 +120,7 @@ main section div button {
 }
 
 .header__menu--select:hover {
-    background-color: #f5a59e;
+    background-color: #f0bab5;
     border-radius: 5px;
 }
 
@@ -134,6 +135,7 @@ main section div button {
     margin-left: auto;
     margin-right: auto;
 }
+
 /*CARRUSEL*/
 
 #carouselindex {
@@ -214,19 +216,9 @@ main section div button {
     grid-column: 5;
 }
 
-/*
-.body__recien-llegados--productos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content:space-evenly;
+.body__recien-llegados--imagen {
+    padding-bottom: 1vw;
 }
-
-.body__recien-llegados--producto {
-    padding: 0%;
-    padding-top: 40px;
-}
-*/
 
 /*PRODUCTOS*/
 .body__h2--productos {
@@ -257,29 +249,11 @@ main section div button {
     height: 60%
 }
 
-.body__producto--etiqueta {
-    color: transparent;
+#btn__productos{
+    margin-top: 4.2vw;
 }
-
-/*Trabajando en que la hover feature no rompa toda la página*/
-/*
-    height: 60%;
-    position: relative;
-    bottom: 405px;
-    overflow: hidden;
-    display: block;
-    text-align: center;
-    padding-top: 150px;
-}
-
-.body__producto--etiqueta:hover {
-    color: #1c1526c0;
-    background-color: #1c15264b;
-}
-*/
 
 /*CONTACTO*/
-
 .body__h2--contacto {
     font-size: 220%;
     text-align: center;
@@ -288,26 +262,28 @@ main section div button {
 }
 
 .body__h3 {
-    padding-left: 15%;
     padding-bottom: 2%;
 }
 
-.body__seccion-contacto {
+.body__seccion--contacto {
     padding-left: 25%;
     padding-right: 25%;
 }
 
-.body__h3--parrafo {
+.body__h4 {
     text-align: center;
-    padding-bottom: 3%;
 }
 
-.body__h4{
-    text-align: center;
+.body__seccion--seguinos {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4%;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 main div iframe {
-    display:block;
+    display: block;
     margin: auto;
 }
 
@@ -315,7 +291,7 @@ main div iframe {
 /*CASCADA SCSS*/
 fieldset {
     height: 90%;
-    background-color:#f2999198;
+    background-color: #f2999198;
     border-radius: 5px;
     border: 2px solid #1c1526;
 }
@@ -332,7 +308,7 @@ legend h4 {
 textarea {
     font-family: karma;
     padding: 2%;
-    border-color:transparent;
+    border-color: transparent;
     background-color: transparent;
     width: 95%;
 }
@@ -346,7 +322,7 @@ textarea {
     padding: 0.3%;
 }
 
-.contacto__formulario--tu-e-mail{
+.contacto__formulario--tu-e-mail {
     padding: 0.3%;
     margin-left: 6%;
     margin-right: 46%;
@@ -359,11 +335,11 @@ textarea {
     padding: 2% 0px;
 }
 
-.main__preguntas{
+.main__preguntas {
     padding: 2%;
     margin-left: 20%;
     margin-right: 20%;
-    background-color:#f299917e;
+    background-color: #f299917e;
     border-radius: 5px;
     border: 2px solid #1c1526;
 }
@@ -402,6 +378,10 @@ section div h3 {
     padding: 3.5% 0px;
 }
 
+.body__pie-de-pagina--cuadrado-texto {
+    padding-top: 1.5vw;
+}
+
 /*AQUÍ COMIENZA FOOTER*/
 .footer {
     color: white;
@@ -420,10 +400,7 @@ section div h3 {
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-}
-
-.footer__seguinos--seguinos-en {
-    width: 105px;
+    column-gap: 2vw;
 }
 
 .footer__ul {
@@ -434,14 +411,14 @@ section div h3 {
 }
 
 .footer__ul--preguntas-frecuentes {
-    width: 200px;
+    width: 10.5vw;
     border-right: 1px solid white;
-    height: 30px;
+    height: 2vw;
 }
 
 .footer__ul--contacto {
-    width: 100px;
-    padding-left: 13px;
+    width: 10.5vw;
+    padding-left: 1vw;
 }
 
 #footer__productos {
@@ -497,6 +474,14 @@ section div h3 {
         margin-top: 15%;
     }
 
+    /*FOOTER*/
+    .footer__seguinos--seguinos-en{
+        font-size: 2.5vw;
+    }
+
+    .footer__ul{
+        font-size: 1.75vw;
+    }
 }
 
 /*TABLET*/
@@ -544,12 +529,6 @@ section div h3 {
         column-gap: 0;
     }
 
-    .header__header--btns {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
     /*PRODUCTOS*/
 
     .body__fila {
@@ -583,6 +562,15 @@ section div h3 {
     #footer__nosotros {
         margin-top: 10%;
     }
+
+    /*FOOTER*/
+    .footer__seguinos--seguinos-en{
+        font-size: 2.5vw;
+    }
+
+    .footer__ul{
+        font-size: 1.75vw;
+    }
 }
 
 /*TABLET*/
@@ -596,7 +584,6 @@ section div h3 {
     .header__menu {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         justify-content: center;
         column-gap: 0.3%;
     }
@@ -634,6 +621,14 @@ section div h3 {
         margin: 0px;
     }
 
+    .body__pie-de-pagina--cuadrado {
+        margin: auto;
+    }
+
+    .body__pie-de-pagina--cuadrado-texto {
+        font-size: 6vw;
+    }
+
     /*HEADER GENÉRICO*/
 
     #header__header--title2 {
@@ -643,12 +638,6 @@ section div h3 {
     .header__header--title-logo {
         justify-content: space-around;
         column-gap: 0;
-    }
-
-    .header__header--btns {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
 
     /*PRODUCTOS*/
@@ -695,6 +684,26 @@ section div h3 {
     #footer__nosotros {
         margin-top: 10%;
     }
+
+    /*FOOTER*/
+    .footer {
+        padding: 3% 5%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer__seguinos--seguinos-en{
+        font-size: 3.5vw;
+    }
+
+    .footer__ul{
+        flex-wrap: nowrap;
+        font-size: 3vw;
+    }
+    .footer__ul--preguntas-frecuentes {
+        border-right: 1px solid transparent;
+    }
 }
 
 /*AQUÍ COMIENZA LAS VARIABLES*/
@@ -704,17 +713,37 @@ section div h3 {
 }
 
 .header__header--title {
-    color:#f5a59e;
+    color: #f5a59e;
 }
 
 .header__menu--select {
-    background-color:#f5a59e;
+    background-color: #f5a59e;
 }
 
 .body__recien-llegados--titulo {
-    color:#d9ab73;
+    color: white;
 }
 
-.body__pie-de-pagina {
+.body__pie-de-pagina--cuadrado {
     color: white;
+}
+
+.fa-user {
+    color: #f29991;
+}
+
+.fa-cart-shopping {
+    color: #f29991;
+}
+
+.fa-truck {
+    color: white;
+}
+
+.fa-credit-card {
+    color: white
+}
+
+.fa-heart {
+    color: white
 }
