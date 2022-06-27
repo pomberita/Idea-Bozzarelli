@@ -249,7 +249,7 @@ main section div button {
     height: 60%
 }
 
-#btn__productos{
+#btn__productos {
     margin-top: 4.2vw;
 }
 
@@ -314,6 +314,7 @@ textarea {
 }
 
 .contacto__formulario {
+    display: flex;
     padding-top: 5%;
     padding-bottom: 8%;
 }
@@ -325,7 +326,7 @@ textarea {
 .contacto__formulario--tu-e-mail {
     padding: 0.3%;
     margin-left: 6%;
-    margin-right: 46%;
+    margin-right: 6%;
 }
 
 /*PREGUNTAS FRECUENTES*/
@@ -463,6 +464,7 @@ section div h3 {
     /*PRODUCTOS*/
 
     .body__fila {
+        margin-left: 20vw;
         grid-template-columns: repeat(3, 25%);
     }
 
@@ -474,12 +476,17 @@ section div h3 {
         margin-top: 15%;
     }
 
+    /*CONTACTO*/
+    .body__h4 {
+        padding-top: 5vw;
+    }
+
     /*FOOTER*/
-    .footer__seguinos--seguinos-en{
+    .footer__seguinos--seguinos-en {
         font-size: 2.5vw;
     }
 
-    .footer__ul{
+    .footer__ul {
         font-size: 1.75vw;
     }
 }
@@ -531,7 +538,12 @@ section div h3 {
 
     /*PRODUCTOS*/
 
+    .body__ordenar-por {
+        padding-bottom: 5vw;
+    }
+
     .body__fila {
+        margin-left: 18vw;
         grid-template-columns: repeat(2, 45%);
         padding-top: 0px;
     }
@@ -549,6 +561,24 @@ section div h3 {
         padding-left: 12%;
     }
 
+    /*CONTACTO*/
+    .body__h4 {
+        padding-top: 5vw;
+    }
+
+    .body__seccion--seguinos {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 20%;
+        padding-top: 4%;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    #btn__productos {
+        margin-top: 8vw;
+    }
+
     #footer__productos {
         margin-top: 25%;
     }
@@ -564,11 +594,11 @@ section div h3 {
     }
 
     /*FOOTER*/
-    .footer__seguinos--seguinos-en{
+    .footer__seguinos--seguinos-en {
         font-size: 2.5vw;
     }
 
-    .footer__ul{
+    .footer__ul {
         font-size: 1.75vw;
     }
 }
@@ -645,6 +675,7 @@ section div h3 {
     .body__fila {
         display: block;
         padding-top: 0px;
+        margin-left: 15vw;
     }
 
     .body__ordenar-por {
@@ -657,7 +688,7 @@ section div h3 {
     }
 
     .body__producto {
-        padding-top: 20%;
+        padding-top: 40%;
         height: 450px;
     }
 
@@ -675,6 +706,10 @@ section div h3 {
         margin-top: 25%;
     }
 
+    #btn__productos {
+        margin-top: 25vw;
+    }
+
     /*NOSOTROS*/
 
     #body__image--nosotros {
@@ -685,6 +720,28 @@ section div h3 {
         margin-top: 10%;
     }
 
+     /*CONTACTO*/
+     .body__h4 {
+        padding-top: 5vw;
+    }
+
+    .body__seccion--seguinos {
+        column-gap: 20%;
+        
+    }
+
+    iframe {
+        width: auto;
+    }
+
+    legend {
+        display: none;
+    }
+
+    .contacto__formulario {
+        display: inline;
+    }
+    
     /*FOOTER*/
     .footer {
         padding: 3% 5%;
@@ -693,14 +750,15 @@ section div h3 {
         flex-wrap: wrap;
     }
 
-    .footer__seguinos--seguinos-en{
+    .footer__seguinos--seguinos-en {
         font-size: 3.5vw;
     }
 
-    .footer__ul{
+    .footer__ul {
         flex-wrap: nowrap;
         font-size: 3vw;
     }
+
     .footer__ul--preguntas-frecuentes {
         border-right: 1px solid transparent;
     }
