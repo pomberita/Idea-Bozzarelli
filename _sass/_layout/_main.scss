@@ -1,0 +1,248 @@
+/*PÁRRAFO*/
+.body__parrafo {
+    line-height: 1.8;
+    text-align: center;
+    display: flex;
+    padding: 4% 0px;
+    max-width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*CARRUSEL*/
+#carouselindex {
+    margin-bottom: 5vw;
+}
+
+/*NOSOTROS*/
+.body__image {
+    max-width: 100%;
+    height: auto;
+}
+
+.body__parrafo--nosotros {
+    text-align: center;
+    padding: 1.75% 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+}
+
+.body__h2 {
+    padding-top: 1.5%;
+}
+
+.body__h3 {
+    padding-top: 1.5%;
+}
+
+/*HR NOSOTROS*/
+.hr1 {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 30%;
+    border-width: 3px;
+}
+
+.hr2 {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 16%;
+    border-width: 3px;
+}
+
+/*RECIÉN LLEGADOS*/
+.body__recien-llegados--titulo {
+    background-color: #1c1526;
+    width: 13%;
+    height: 60px;
+    font-size: 120%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16%;
+}
+
+.body__recien-llegados--productos {
+    padding-top: 3%;
+    padding-bottom: 6%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr)
+}
+
+.body__recien-llegados--producto {
+    align-self: center;
+}
+
+#body__recien-llegados--producto {
+    grid-column: 3;
+}
+
+#body__recien-llegados--producto2 {
+    grid-column: 5;
+}
+
+.body__recien-llegados--imagen {
+    padding-bottom: 1vw;
+}
+
+/*PRODUCTOS*/
+.body__h2--productos {
+    padding-left: 23%;
+}
+
+.body__ordenar-por {
+    padding-top: 0.7%;
+    padding-left: 23%;
+}
+
+.body__fila {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    padding-top: 3%;
+}
+
+.body__producto--img {
+    width: 90%;
+}
+
+.body__producto1 {
+    grid-column: 2;
+    height: 60%
+}
+
+.body__producto {
+    height: 60%
+}
+
+#btn__productos {
+    margin-top: 4.2vw;
+}
+
+/*CONTACTO*/
+.body__h2--contacto {
+    font-size: 220%;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 4%;
+}
+
+.body__h3 {
+    padding-bottom: 2%;
+}
+
+.body__seccion--contacto {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.body__h4 {
+    text-align: center;
+}
+
+.body__seccion--seguinos {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4%;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+main div iframe {
+    display: block;
+    margin: auto;
+}
+
+/*FORMULARIO*/
+fieldset {
+    height: 90%;
+    background-color: #f2999198;
+    border-radius: 5px;
+    border: 2px solid #1c1526;
+    legend {
+        background-color: white;
+        width: 20%;
+        h4 {
+            text-align: center;
+        }
+    }
+}
+
+textarea {
+    font-family: karma;
+    padding: 2%;
+    border-color: transparent;
+    background-color: transparent;
+    width: 95%;
+}
+
+.contacto__formulario {
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+
+.contacto__formulario--tu-nombre {
+    padding: 0.3%;
+}
+
+.contacto__formulario--tu-e-mail {
+    padding: 0.3%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+/*PREGUNTAS FRECUENTES*/
+.main__titulo {
+    text-align: center;
+    padding: 2% 0px;
+}
+
+.main__preguntas {
+    padding: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #f299917e;
+    border-radius: 5px;
+    border: 2px solid #1c1526;
+}
+
+section div h3 {
+    padding-bottom: 3%;
+}
+
+.main__preguntas--pregunta {
+    padding-bottom: 5%;
+}
+
+.main__consultas {
+    text-align: center;
+    padding: 5% 0px;
+}
+
+/*PIE DE PÁGINA*/
+.body__pie-de-pagina {
+    background-color: #1c1526;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    column-gap: 5%;
+    overflow: visible;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body__pie-de-pagina--cuadrado {
+    line-height: 2;
+    text-align: center;
+    width: 13%;
+    padding: 3.5% 0px;
+}
+
+.body__pie-de-pagina--cuadrado-texto {
+    padding-top: 1.5vw;
+}

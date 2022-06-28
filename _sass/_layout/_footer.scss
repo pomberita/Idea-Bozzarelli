@@ -1,0 +1,41 @@
+.footer {
+    color: white;
+    font-size: 113%;
+    background-color: #d9ab73;
+    padding: 3% 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.footer__seguinos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 2vw;
+}
+
+.footer__ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.footer__ul--preguntas-frecuentes {
+    width: 10.5vw;
+    border-right: 1px solid white;
+    height: 2vw;
+}
+
+.footer__ul--contacto {
+    width: 10.5vw;
+    padding-left: 1vw;
+}
+
+#footer__productos {
+    margin-top: 8%;
+}

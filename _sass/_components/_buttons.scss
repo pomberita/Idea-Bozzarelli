@@ -1,0 +1,27 @@
+.btn__agregar-al-carrito {
+    color: #1c1526;
+    font-family: karma;
+    background-color: #f29991;
+    border-color: #1c1526;
+    width: 90%;
+    height: 18%;
+    /*BORDE*/
+    border-width: 0;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-radius: 60px;
+}
+
+.btn__agregar-al-carrito:hover {
+    border-width: 0;
+}
+
+main section div button {
+    position: relative;
+    bottom: 15%;
+}
+
+.btn__enviar {
+    padding: 0.3%;
+    background-color: white;
+}

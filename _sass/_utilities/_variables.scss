@@ -1,0 +1,44 @@
+$colorletras: #1c1526;
+$colordos: #f5a59e;
+$colortres: #d9ab73;
+$colorcuatro: white;
+
+* {
+    color: $colorletras;
+}
+
+.header__header--title {
+    color: $colordos;
+}
+
+.header__menu--select {
+    background-color: $colordos;
+}
+
+.body__recien-llegados--titulo {
+    color: $colorcuatro;
+}
+
+.body__pie-de-pagina--cuadrado {
+    color: $colorcuatro;
+}
+
+.fa-user {
+    color: $colordos;
+}
+
+.fa-cart-shopping {
+    color: $colordos;
+}
+
+.fa-truck {
+    color: $colorcuatro;
+}
+
+.fa-credit-card {
+    color: $colorcuatro;
+}
+
+.fa-heart {
+    color: $colorcuatro;
+}

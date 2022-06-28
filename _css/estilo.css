@@ -1,0 +1,861 @@
+@charset "UTF-8";
+/* line 1, ../../../coder-house/proyecto-final-v8/_sass/_base/_reset.scss */
+html {
+  font-size: 62, 5%;
+}
+
+/*RESETEO*/
+/* line 6, ../../../coder-house/proyecto-final-v8/_sass/_base/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1, ../../../coder-house/proyecto-final-v8/_sass/_base/_typo.scss */
+* {
+  font-family: 'Sawarabi Mincho';
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* line 7, ../../../coder-house/proyecto-final-v8/_sass/_base/_typo.scss */
+.header__header--title {
+  font-family: Vidaloka;
+}
+
+/* line 11, ../../../coder-house/proyecto-final-v8/_sass/_base/_typo.scss */
+.header__menu--select {
+  font-family: karma;
+}
+
+/* line 15, ../../../coder-house/proyecto-final-v8/_sass/_base/_typo.scss */
+.body__ordenar-por {
+  font-family: karma;
+}
+
+/* line 19, ../../../coder-house/proyecto-final-v8/_sass/_base/_typo.scss */
+.footer {
+  font-family: karma;
+}
+
+/* line 1, ../../../coder-house/proyecto-final-v8/_sass/_components/_buttons.scss */
+.btn__agregar-al-carrito {
+  color: #1c1526;
+  font-family: karma;
+  background-color: #f29991;
+  border-color: #1c1526;
+  width: 90%;
+  height: 18%;
+  /*BORDE*/
+  border-width: 0;
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  border-radius: 60px;
+}
+
+/* line 15, ../../../coder-house/proyecto-final-v8/_sass/_components/_buttons.scss */
+.btn__agregar-al-carrito:hover {
+  border-width: 0;
+}
+
+/* line 19, ../../../coder-house/proyecto-final-v8/_sass/_components/_buttons.scss */
+main section div button {
+  position: relative;
+  bottom: 15%;
+}
+
+/* line 24, ../../../coder-house/proyecto-final-v8/_sass/_components/_buttons.scss */
+.btn__enviar {
+  padding: 0.3%;
+  background-color: white;
+}
+
+/* line 1, ../../../coder-house/proyecto-final-v8/_sass/_layout/_header.scss */
+.header__header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 2% 0px;
+}
+
+/* line 9, ../../../coder-house/proyecto-final-v8/_sass/_layout/_header.scss */
+.header__header--title {
+  font-size: 275%;
+}
+
+/*LOGO*/
+/* line 14, ../../../coder-house/proyecto-final-v8/_sass/_layout/_header.scss */
+.header__logo {
+  display: flex;
+  width: 15%;
+  padding-bottom: 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*HEADER GENERICO*/
+/* line 23, ../../../coder-house/proyecto-final-v8/_sass/_layout/_header.scss */
+.header__header--title-logo {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 4%;
+  align-items: center;
+}
+
+/* line 30, ../../../coder-house/proyecto-final-v8/_sass/_layout/_header.scss */
+.header__header--logo {
+  width: 15%;
+}
+
+/* line 34, ../../../coder-house/proyecto-final-v8/_sass/_layout/_header.scss */
+.header__header--btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*LISTA NO ORDENADA DEL MENÚ*/
+/* line 41, ../../../coder-house/proyecto-final-v8/_sass/_layout/_header.scss */
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  column-gap: 4%;
+}
+
+/* line 49, ../../../coder-house/proyecto-final-v8/_sass/_layout/_header.scss */
+.header__menu--select {
+  font-size: 200%;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+/* line 55, ../../../coder-house/proyecto-final-v8/_sass/_layout/_header.scss */
+.header__menu--select:hover {
+  background-color: #f0bab5;
+  border-radius: 5px;
+}
+
+/*PÁRRAFO*/
+/* line 2, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__parrafo {
+  line-height: 1.8;
+  text-align: center;
+  display: flex;
+  padding: 4% 0px;
+  max-width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*CARRUSEL*/
+/* line 13, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+#carouselindex {
+  margin-bottom: 5vw;
+}
+
+/*NOSOTROS*/
+/* line 18, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 23, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__parrafo--nosotros {
+  text-align: center;
+  padding: 1.75% 0px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+}
+
+/* line 31, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__h2 {
+  padding-top: 1.5%;
+}
+
+/* line 35, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__h3 {
+  padding-top: 1.5%;
+}
+
+/*HR NOSOTROS*/
+/* line 40, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.hr1 {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  width: 30%;
+  border-width: 3px;
+}
+
+/* line 48, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.hr2 {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  width: 16%;
+  border-width: 3px;
+}
+
+/*RECIÉN LLEGADOS*/
+/* line 57, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__recien-llegados--titulo {
+  background-color: #1c1526;
+  width: 13%;
+  height: 60px;
+  font-size: 120%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16%;
+}
+
+/* line 69, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__recien-llegados--productos {
+  padding-top: 3%;
+  padding-bottom: 6%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+/* line 76, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__recien-llegados--producto {
+  align-self: center;
+}
+
+/* line 80, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+#body__recien-llegados--producto {
+  grid-column: 3;
+}
+
+/* line 84, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+#body__recien-llegados--producto2 {
+  grid-column: 5;
+}
+
+/* line 88, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__recien-llegados--imagen {
+  padding-bottom: 1vw;
+}
+
+/*PRODUCTOS*/
+/* line 93, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__h2--productos {
+  padding-left: 23%;
+}
+
+/* line 97, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__ordenar-por {
+  padding-top: 0.7%;
+  padding-left: 23%;
+}
+
+/* line 102, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__fila {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  padding-top: 3%;
+}
+
+/* line 108, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__producto--img {
+  width: 90%;
+}
+
+/* line 112, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__producto1 {
+  grid-column: 2;
+  height: 60%;
+}
+
+/* line 117, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__producto {
+  height: 60%;
+}
+
+/* line 121, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+#btn__productos {
+  margin-top: 4.2vw;
+}
+
+/*CONTACTO*/
+/* line 126, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__h2--contacto {
+  font-size: 220%;
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 4%;
+}
+
+/* line 133, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__h3 {
+  padding-bottom: 2%;
+}
+
+/* line 137, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__seccion--contacto {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+/* line 142, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__h4 {
+  text-align: center;
+}
+
+/* line 146, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__seccion--seguinos {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 4%;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+/* line 154, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+main div iframe {
+  display: block;
+  margin: auto;
+}
+
+/*FORMULARIO*/
+/* line 160, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+fieldset {
+  height: 90%;
+  background-color: #f2999198;
+  border-radius: 5px;
+  border: 2px solid #1c1526;
+}
+
+/* line 165, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+fieldset legend {
+  background-color: white;
+  width: 20%;
+}
+
+/* line 168, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+fieldset legend h4 {
+  text-align: center;
+}
+
+/* line 174, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+textarea {
+  font-family: karma;
+  padding: 2%;
+  border-color: transparent;
+  background-color: transparent;
+  width: 95%;
+}
+
+/* line 182, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.contacto__formulario {
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 8%;
+}
+
+/* line 188, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.contacto__formulario--tu-nombre {
+  padding: 0.3%;
+}
+
+/* line 192, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.contacto__formulario--tu-e-mail {
+  padding: 0.3%;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+/*PREGUNTAS FRECUENTES*/
+/* line 199, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.main__titulo {
+  text-align: center;
+  padding: 2% 0px;
+}
+
+/* line 204, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.main__preguntas {
+  padding: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #f299917e;
+  border-radius: 5px;
+  border: 2px solid #1c1526;
+}
+
+/* line 213, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+section div h3 {
+  padding-bottom: 3%;
+}
+
+/* line 217, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.main__preguntas--pregunta {
+  padding-bottom: 5%;
+}
+
+/* line 221, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.main__consultas {
+  text-align: center;
+  padding: 5% 0px;
+}
+
+/*PIE DE PÁGINA*/
+/* line 227, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__pie-de-pagina {
+  background-color: #1c1526;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  column-gap: 5%;
+  overflow: visible;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 239, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__pie-de-pagina--cuadrado {
+  line-height: 2;
+  text-align: center;
+  width: 13%;
+  padding: 3.5% 0px;
+}
+
+/* line 246, ../../../coder-house/proyecto-final-v8/_sass/_layout/_main.scss */
+.body__pie-de-pagina--cuadrado-texto {
+  padding-top: 1.5vw;
+}
+
+/* line 1, ../../../coder-house/proyecto-final-v8/_sass/_layout/_footer.scss */
+.footer {
+  color: white;
+  font-size: 113%;
+  background-color: #d9ab73;
+  padding: 3% 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+/* line 12, ../../../coder-house/proyecto-final-v8/_sass/_layout/_footer.scss */
+.footer__seguinos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 2vw;
+}
+
+/* line 21, ../../../coder-house/proyecto-final-v8/_sass/_layout/_footer.scss */
+.footer__ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+/* line 28, ../../../coder-house/proyecto-final-v8/_sass/_layout/_footer.scss */
+.footer__ul--preguntas-frecuentes {
+  width: 10.5vw;
+  border-right: 1px solid white;
+  height: 2vw;
+}
+
+/* line 34, ../../../coder-house/proyecto-final-v8/_sass/_layout/_footer.scss */
+.footer__ul--contacto {
+  width: 10.5vw;
+  padding-left: 1vw;
+}
+
+/* line 39, ../../../coder-house/proyecto-final-v8/_sass/_layout/_footer.scss */
+#footer__productos {
+  margin-top: 8%;
+}
+
+/*TABLET*/
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+  /*INDEX*/
+  /* line 5, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__recien-llegados--titulo {
+    width: 28%;
+    margin-left: 6%;
+  }
+  /* line 10, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__recien-llegados--productos {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 8%;
+  }
+  /* line 15, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  #body__recien-llegados--producto {
+    grid-column: 2;
+  }
+  /* line 19, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  #body__recien-llegados--producto2 {
+    grid-column: 3;
+  }
+  /* line 23, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__pie-de-pagina {
+    column-gap: 5%;
+    overflow: visible;
+  }
+  /* line 28, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__pie-de-pagina--cuadrado {
+    line-height: 2;
+    text-align: center;
+    width: 24%;
+    padding: 3.5% 0px;
+  }
+  /*PRODUCTOS*/
+  /* line 37, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__fila {
+    margin-left: 20vw;
+    grid-template-columns: repeat(3, 25%);
+  }
+  /* line 42, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__producto1 {
+    grid-column: 1;
+  }
+  /* line 46, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  #footer__productos {
+    margin-top: 15%;
+  }
+  /*CONTACTO*/
+  /* line 51, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__h4 {
+    padding-top: 5vw;
+  }
+  /*FOOTER*/
+  /* line 56, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .footer__seguinos--seguinos-en {
+    font-size: 2.5vw;
+  }
+  /* line 60, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .footer__ul {
+    font-size: 1.75vw;
+  }
+}
+
+/*TABLET*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /*INDEX*/
+  /* line 69, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .header__menu {
+    column-gap: 1%;
+  }
+  /* line 73, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .header__menu--select {
+    font-size: 20px;
+  }
+  /* line 77, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__recien-llegados--titulo {
+    width: 28%;
+    margin-left: 1%;
+  }
+  /* line 82, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__recien-llegados--productos {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.25%;
+    overflow: hidden;
+  }
+  /* line 88, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  #body__recien-llegados--producto {
+    grid-column: 1;
+  }
+  /* line 92, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__pie-de-pagina--cuadrado {
+    line-height: 2;
+    text-align: center;
+    width: 30%;
+    padding: 3.5% 0px;
+  }
+  /*HEADER GENÉRICO*/
+  /* line 101, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  #header__header--title2 {
+    font-size: 200%;
+  }
+  /* line 105, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .header__header--title-logo {
+    justify-content: space-around;
+    column-gap: 0;
+  }
+  /*PRODUCTOS*/
+  /* line 112, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__ordenar-por {
+    padding-bottom: 5vw;
+  }
+  /* line 116, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__fila {
+    margin-left: 18vw;
+    grid-template-columns: repeat(2, 45%);
+    padding-top: 0px;
+  }
+  /* line 122, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  #body__producto1 {
+    grid-column: 1;
+  }
+  /* line 126, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__h2--productos {
+    padding-left: 12%;
+  }
+  /* line 130, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__ordenar-por {
+    padding-top: 0.7%;
+    padding-left: 12%;
+  }
+  /*CONTACTO*/
+  /* line 136, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__h4 {
+    padding-top: 5vw;
+  }
+  /* line 140, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__seccion--seguinos {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20%;
+    padding-top: 4%;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  /* line 149, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  #btn__productos {
+    margin-top: 8vw;
+  }
+  /* line 153, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  #footer__productos {
+    margin-top: 25%;
+  }
+  /*NOSOTROS*/
+  /* line 159, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  #body__image--nosotros {
+    padding: 3% 0px;
+  }
+  /* line 163, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  #footer__nosotros {
+    margin-top: 10%;
+  }
+  /*FOOTER*/
+  /* line 168, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .footer__seguinos--seguinos-en {
+    font-size: 2.5vw;
+  }
+  /* line 172, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .footer__ul {
+    font-size: 1.75vw;
+  }
+}
+
+/*TABLET*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /*INDEX*/
+  /* line 181, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .header__header--title {
+    font-size: 120%;
+  }
+  /* line 185, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .header__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 0.3%;
+  }
+  /* line 192, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .header__menu--select {
+    font-size: 70%;
+  }
+  /* line 196, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__parrafo {
+    font-size: 118%;
+  }
+  /* line 200, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__recien-llegados--titulo {
+    width: 60%;
+    height: 40px;
+    margin-left: 2%;
+    font-size: 100%;
+  }
+  /* line 207, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__recien-llegados--productos {
+    display: block;
+  }
+  /* line 211, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  #body__recien-llegados--producto {
+    padding-top: 6%;
+  }
+  /* line 215, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  #body__recien-llegados--producto2 {
+    padding-top: 10%;
+  }
+  /* line 219, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__pie-de-pagina {
+    font-size: 90%;
+    display: block;
+    margin: 0px;
+  }
+  /* line 225, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__pie-de-pagina--cuadrado {
+    margin: auto;
+  }
+  /* line 229, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__pie-de-pagina--cuadrado-texto {
+    font-size: 6vw;
+  }
+  /*HEADER GENÉRICO*/
+  /* line 235, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  #header__header--title2 {
+    font-size: 120%;
+  }
+  /* line 239, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .header__header--title-logo {
+    justify-content: space-around;
+    column-gap: 0;
+  }
+  /*PRODUCTOS*/
+  /* line 246, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__fila {
+    display: block;
+    padding-top: 0px;
+    margin-left: 15vw;
+  }
+  /* line 252, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__ordenar-por {
+    padding-top: 0.7%;
+    padding-left: 12%;
+  }
+  /* line 257, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__h2--productos {
+    padding-left: 12%;
+  }
+  /* line 261, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__producto {
+    padding-top: 40%;
+    height: 450px;
+  }
+  /* line 266, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__producto1 {
+    padding-top: 20%;
+    height: 450px;
+  }
+  /* line 271, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .btn__agregar-al-carrito {
+    width: 90%;
+    height: 45px;
+  }
+  /* line 276, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  #footer__productos {
+    margin-top: 25%;
+  }
+  /* line 280, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  #btn__productos {
+    margin-top: 25vw;
+  }
+  /*NOSOTROS*/
+  /* line 286, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  #body__image--nosotros {
+    padding: 3% 0px;
+  }
+  /* line 290, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  #footer__nosotros {
+    margin-top: 10%;
+  }
+  /*CONTACTO*/
+  /* line 295, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__h4 {
+    padding-top: 5vw;
+  }
+  /* line 299, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .body__seccion--seguinos {
+    column-gap: 20%;
+  }
+  /* line 304, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  iframe {
+    width: auto;
+  }
+  /* line 308, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  legend {
+    display: none;
+  }
+  /* line 312, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .contacto__formulario {
+    display: inline;
+  }
+  /*FOOTER*/
+  /* line 317, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .footer {
+    padding: 3% 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  /* line 324, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .footer__seguinos--seguinos-en {
+    font-size: 3.5vw;
+  }
+  /* line 328, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .footer__ul {
+    flex-wrap: nowrap;
+    font-size: 3vw;
+  }
+  /* line 333, ../../../coder-house/proyecto-final-v8/_sass/_vendors/_mediaquerys.scss */
+  .footer__ul--preguntas-frecuentes {
+    border-right: 1px solid transparent;
+  }
+}
+
+/* line 6, ../../../coder-house/proyecto-final-v8/_sass/_utilities/_variables.scss */
+* {
+  color: #1c1526;
+}
+
+/* line 10, ../../../coder-house/proyecto-final-v8/_sass/_utilities/_variables.scss */
+.header__header--title {
+  color: #f5a59e;
+}
+
+/* line 14, ../../../coder-house/proyecto-final-v8/_sass/_utilities/_variables.scss */
+.header__menu--select {
+  background-color: #f5a59e;
+}
+
+/* line 18, ../../../coder-house/proyecto-final-v8/_sass/_utilities/_variables.scss */
+.body__recien-llegados--titulo {
+  color: white;
+}
+
+/* line 22, ../../../coder-house/proyecto-final-v8/_sass/_utilities/_variables.scss */
+.body__pie-de-pagina--cuadrado {
+  color: white;
+}
+
+/* line 26, ../../../coder-house/proyecto-final-v8/_sass/_utilities/_variables.scss */
+.fa-user {
+  color: #f5a59e;
+}
+
+/* line 30, ../../../coder-house/proyecto-final-v8/_sass/_utilities/_variables.scss */
+.fa-cart-shopping {
+  color: #f5a59e;
+}
+
+/* line 34, ../../../coder-house/proyecto-final-v8/_sass/_utilities/_variables.scss */
+.fa-truck {
+  color: white;
+}
+
+/* line 38, ../../../coder-house/proyecto-final-v8/_sass/_utilities/_variables.scss */
+.fa-credit-card {
+  color: white;
+}
+
+/* line 42, ../../../coder-house/proyecto-final-v8/_sass/_utilities/_variables.scss */
+.fa-heart {
+  color: white;
+}
+
+/*# sourceMappingURL=estilo.css.map */
